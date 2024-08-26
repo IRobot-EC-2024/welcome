@@ -4,10 +4,11 @@
 
 <h1 align="center">欢迎报名 IRobot 战队嵌入式组！</h1>
 
-<div align="center" style="padding-bottom: 15px;">
+<div align="center">
     <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=2JehDBVI8BBWEfourtdRF60RpF1zjHOV&authKey=EvFODrPUWOLijVFji0AScdjeAl2JCO7ZtpbFKF14VjfpjFyHmIU3e%2FijA%2FvoBc2l&noverify=0&group_code=635535591">交流群</a>
     <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
     <a href="https://space.bilibili.com/436391821/channel/collectiondetail?sid=1809229">2023培训</a>
+    </br></br>
 </div>
 
 谢谢你的报名！这里是我们 2025 赛季的招新文档，我们会在这里发布一些公告信息，部分入队考核也会在这里进行。
