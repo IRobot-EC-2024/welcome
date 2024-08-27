@@ -59,10 +59,18 @@
 
   先去淘宝买一块 stm32f103c8t6 最小系统板和一个 stlink 调试器，然后跟着做 ⬇️
 
-  推荐教程1：[嵌入式第二次培训](https://www.bilibili.com/video/BV16w411C7zL)
+  推荐教程 1：[嵌入式第二次培训](https://www.bilibili.com/video/BV16w411C7zL)
 
-  推荐教程2：[合集·keysking的STM32教程](https://space.bilibili.com/6100925/channel/collectiondetail?sid=1025423)
+  推荐教程 2：[合集·keysking 的 STM32 教程](https://space.bilibili.com/6100925/channel/collectiondetail?sid=1025423)
 
 - PID
 
   推荐教程：[通俗易懂的 PID 控制算法讲解](https://www.bilibili.com/video/BV1et4y1i7Gm)
+
+- C++
+
+  推荐教程：[【C++】6 小时学完 C++|C++面向对象编程|期末突击【慕课】](https://www.bilibili.com/video/BV1ZT4y1C7WR)
+
+- 画 PCB
+
+  推荐教程：[【保姆级】二十分钟零基础 PCB 绘制打样一条龙教程（立创 EDA 专业版）](https://www.bilibili.com/video/BV1J24y1Z7cY)
