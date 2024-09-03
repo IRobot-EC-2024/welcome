@@ -71,7 +71,7 @@
 
 接下来的这些任务需要来实验室完成：
 
-来之前先在[问卷](https://w0ybodqyg7f.feishu.cn/share/base/form/shrcnmOrLiNsDxQ9RQW10x1NaSf)里预约一下你要来的时间，我们会抽人联系你接应一下，防止迷路。
+来之前先在[问卷](https://w0ybodqyg7f.feishu.cn/share/base/form/shrcnmOrLiNsDxQ9RQW10x1NaSf)里预约一下你要来的时间，或者在群里问问有没有队员有空，我们会抽人联系你接应一下，防止迷路。
 
 - [任务四：焊接](tasks/4.solder/README.md)
 
