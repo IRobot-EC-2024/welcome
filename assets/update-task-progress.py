@@ -9,7 +9,7 @@ font_path = '/System/Library/Fonts/PingFang.ttc'
 font_prop = fm.FontProperties(fname=font_path)
 
 # 数据
-directory = '../submissions/'
+directory = 'submissions/'
 all_items = os.listdir(directory)
 members = [item for item in all_items if os.path.isdir(os.path.join(directory, item)) and item != 'README.md']
 task_counts = {}
@@ -42,4 +42,4 @@ for label in plt.gca().get_xticklabels() + plt.gca().get_yticklabels():
     label.set_fontproperties(font_prop)
 
 # 存储图表
-plt.savefig('task_progress.png')
+plt.savefig('assets/task_progress.png')
