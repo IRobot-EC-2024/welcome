@@ -52,6 +52,7 @@
 ### 考核进度跟踪
 
 [时间轴](https://w0ybodqyg7f.feishu.cn/share/base/view/shrcnuEAKBb1HkQ7SRoO7ExsDTQ)上标出了每一项任务的 deadline 和你的进度。信息随时更新，如果你顺利完成了一项任务，那么你的进度条会前进到这一项任务处。
+![alt](assets/task_progress.png)
 
 **请大家务必按时完成任务，任务逾期即考核不通过。**
 
