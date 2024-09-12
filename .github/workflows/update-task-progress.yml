@@ -22,9 +22,24 @@ jobs:
 
     - name: Install dependencies
       run: |
+        sudo apt install fonts-noto-cjk  
         python -m pip install --upgrade pip
         pip install -r assets/requirements.txt  # 如果你的项目有requirements.txt文件
 
     - name: Run Python script
       run: |
         python assets/update-task-progress.py  # 替换为你需要运行的Python脚本
+
+    - name: Commit changes and add changes
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git add .
+        git commit -m "Update task progress" -a
+      
+    - name: Push changes
+      run: |
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
