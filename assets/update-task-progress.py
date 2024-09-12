@@ -5,7 +5,7 @@ import matplotlib.font_manager as fm
 import os
 
 # 设置字体
-font_path = '/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc'
+font_path = '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc'
 font_prop = fm.FontProperties(fname=font_path)
 
 # 数据
