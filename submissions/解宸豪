@@ -1,0 +1,33 @@
+#include <stdio.h>
+void bubble_sort(int arr[],int len)
+	{
+		for(int i = 0;i < len-1;i++)
+		{	for(int j = 0;j < len - i - 1;j++)
+			{		 if (arr[j] > arr[j + 1])
+			{		 	int temp = arr[j];
+				        arr[j] = arr[j + 1];
+						arr[j + 1] = temp;
+			}
+		 	}
+		}	
+	}
+int main()
+{
+   
+	int n,a;
+	printf("请输入整数个数：\n");
+	scanf("%d/n",&n);
+	int arr[n]; 
+	int len;
+	printf("请输入%d个整数:\n",n);
+	for(a = 0;a < n;a++)
+	{	scanf("%d",&arr[a]);
+	 }
+	bubble_sort(arr,len);
+	
+    
+	for (a = 0;a < n; a++ )	
+	{	printf("%d",arr[a]);
+	}   
+   return 0;
+}
