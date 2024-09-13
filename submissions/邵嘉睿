@@ -1,0 +1,43 @@
+这里用来放提#include <stdio.h>
+
+// 函数声明
+void bubbleSort(int arr[], int n);
+
+int main() {
+    int n, i, num;
+    printf("请输入一系列整数，输入负数或0结束输入：\n");
+    int arr[100]; // 假设用户输入的数字不超过100个
+    n = 0;
+
+    // 用户输入
+    while (scanf("%d", &num) && num > 0) {
+        arr[n++] = num;
+    }
+
+    // 冒泡排序
+    bubbleSort(arr, n);
+
+    // 打印排序后的数组
+    printf("排序后的数组：\n");
+    for (i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+
+// 冒泡排序函数
+void bubbleSort(int arr[], int n) {
+    int i, j, temp;
+    for (i = 0; i < n-1; i++) {
+        for (j = 0; j < n-i-1; j++) {
+            if (arr[j] > arr[j+1]) {
+                // 交换 arr[j] 和 arr[j+1]
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
+}交的任务
