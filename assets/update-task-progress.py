@@ -8,6 +8,9 @@ import os
 font_path = '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc'
 font_prop = fm.FontProperties(fname=font_path)
 
+# font_path = '/System/Library/fonts/PingFang.ttc'
+# font_prop = fm.FontProperties(fname=font_path)
+
 # 数据
 directory = 'submissions/'
 all_items = os.listdir(directory)
