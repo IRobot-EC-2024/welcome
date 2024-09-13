@@ -37,9 +37,16 @@ jobs:
         git add .
         git commit -m "Update task progress" -a
       
+    # - name: Push changes
+    #   run: |
+    #     git push
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    # Push the changes
     - name: Push changes
-      run: |
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
+        force: true
 
