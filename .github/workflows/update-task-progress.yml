@@ -6,6 +6,8 @@ on:
     branches:
       - main  # 或者你希望触发CI的分支名称
 
+      # 使用pull_request_target 而不是pull_request   因为pull_request不send fork分支触发的pr write right
+
 jobs:
   build:
     if: github.event.pull_request.merged == true  # 只有当pull request被合并时才执行CI
@@ -30,23 +32,9 @@ jobs:
       run: |
         python assets/update-task-progress.py  # 替换为你需要运行的Python脚本
 
-    - name: Commit changes and add changes
-      run: |
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-        git add .
-        git commit -m "Update task progress" -a
-      
-    # - name: Push changes
-    #   run: |
-    #     git push
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     # Push the changes
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
-        force: true
+          commit_message: updae task progress
 
