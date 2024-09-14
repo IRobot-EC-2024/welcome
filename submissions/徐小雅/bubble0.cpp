@@ -1,7 +1,7 @@
-#include <stdio.h>,
+#include <stdio.h>
 int main()
 {
-    int arr[10] = { 1,3,8,6,4,2,9,11,18,10 };
+    int arr[10] = {1, 3, 8, 6, 4, 2, 9, 11, 18, 10};
     for (int i = 0; i < 9; i++)
     {
         for (int j = 0; j < 10 - 1 - i; j++)
