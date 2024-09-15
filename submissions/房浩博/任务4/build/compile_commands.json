@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/34236/Desktop/project/房浩博/submissions/房浩博/任务4/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TeamManagement.dir/includes_CXX.rsp -g -o CMakeFiles\\TeamManagement.dir\\src\\attendance.obj -c C:\\Users\\34236\\Desktop\\project\\房浩博\\submissions\\房浩博\\任务4\\src\\attendance.cpp",
+  "file": "C:/Users/34236/Desktop/project/房浩博/submissions/房浩博/任务4/src/attendance.cpp",
+  "output": "CMakeFiles/TeamManagement.dir/src/attendance.obj"
+},
+{
+  "directory": "C:/Users/34236/Desktop/project/房浩博/submissions/房浩博/任务4/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TeamManagement.dir/includes_CXX.rsp -g -o CMakeFiles\\TeamManagement.dir\\src\\main.obj -c C:\\Users\\34236\\Desktop\\project\\房浩博\\submissions\\房浩博\\任务4\\src\\main.cpp",
+  "file": "C:/Users/34236/Desktop/project/房浩博/submissions/房浩博/任务4/src/main.cpp",
+  "output": "CMakeFiles/TeamManagement.dir/src/main.obj"
+},
+{
+  "directory": "C:/Users/34236/Desktop/project/房浩博/submissions/房浩博/任务4/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TeamManagement.dir/includes_CXX.rsp -g -o CMakeFiles\\TeamManagement.dir\\src\\member.obj -c C:\\Users\\34236\\Desktop\\project\\房浩博\\submissions\\房浩博\\任务4\\src\\member.cpp",
+  "file": "C:/Users/34236/Desktop/project/房浩博/submissions/房浩博/任务4/src/member.cpp",
+  "output": "CMakeFiles/TeamManagement.dir/src/member.obj"
+},
+{
+  "directory": "C:/Users/34236/Desktop/project/房浩博/submissions/房浩博/任务4/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TeamManagement.dir/includes_CXX.rsp -g -o CMakeFiles\\TeamManagement.dir\\src\\team.obj -c C:\\Users\\34236\\Desktop\\project\\房浩博\\submissions\\房浩博\\任务4\\src\\team.cpp",
+  "file": "C:/Users/34236/Desktop/project/房浩博/submissions/房浩博/任务4/src/team.cpp",
+  "output": "CMakeFiles/TeamManagement.dir/src/team.obj"
+}
+]
