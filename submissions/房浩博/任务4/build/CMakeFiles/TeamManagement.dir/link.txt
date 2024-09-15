@@ -1,3 +1,0 @@
-"C:\Program Files\cmake-3.30.3-windows-x86_64\bin\cmake.exe" -E rm -f CMakeFiles\TeamManagement.dir/objects.a
-C:\PROGRA~1\mingw64\bin\ar.exe qc CMakeFiles\TeamManagement.dir/objects.a @CMakeFiles\TeamManagement.dir\objects1.rsp
-C:\PROGRA~1\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\TeamManagement.dir/objects.a -Wl,--no-whole-archive -o TeamManagement.exe -Wl,--out-implib,libTeamManagement.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TeamManagement.dir\linkLibs.rsp

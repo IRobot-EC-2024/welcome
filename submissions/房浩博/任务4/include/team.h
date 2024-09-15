@@ -19,8 +19,6 @@ public:
     // 考勤
     void addAttendance(const std::string &id, const std::string &time, double duration);
     void displayAttendance(const std::string &id) const;
-    void sortAttendanceByPunchCount();
-    void sortAttendanceByWorkTime();
 
 private:
     std::vector<Member> members;

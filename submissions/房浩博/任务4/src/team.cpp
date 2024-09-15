@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <iostream>
 
-void Team::addMember(const Member &member)
+void Team::addMember(const Member &member) // 添加队员
 {
     auto it = std::find_if(members.begin(), members.end(), [&](const Member &m)
                            { return m.getId() == member.getId(); });
@@ -14,7 +14,7 @@ void Team::addMember(const Member &member)
     attendances.emplace_back();
 }
 
-bool Team::removeMember(const std::string &id)
+bool Team::removeMember(const std::string &id) // 删除队员
 {
     auto it = std::find_if(members.begin(), members.end(), [&](const Member &m)
                            { return m.getId() == id; });
@@ -28,7 +28,7 @@ bool Team::removeMember(const std::string &id)
     return false;
 }
 
-void Team::updateMember(const std::string &id, const std::string &name, const std::string &joinDate)
+void Team::updateMember(const std::string &id, const std::string &name, const std::string &joinDate) // 修改队员信息
 {
     for (auto &member : members)
     {
@@ -42,7 +42,7 @@ void Team::updateMember(const std::string &id, const std::string &name, const st
     throw std::invalid_argument("未找到指定学号的队员。");
 }
 
-void Team::displayMembers() const
+void Team::displayMembers() const // 显示队员
 {
     for (const auto &member : members)
     {
@@ -50,18 +50,18 @@ void Team::displayMembers() const
     }
 }
 
-void Team::sortMembersById()
+void Team::sortMembersById() // 按学号排序
 {
     std::sort(members.begin(), members.end());
 }
 
-void Team::sortMembersByJoinDate()
+void Team::sortMembersByJoinDate() // 按日期排序
 {
     std::sort(members.begin(), members.end(), [](const Member &a, const Member &b)
               { return a.getJoinDate() < b.getJoinDate(); });
 }
 
-void Team::addAttendance(const std::string &id, const std::string &time, double duration)
+void Team::addAttendance(const std::string &id, const std::string &time, double duration) // 添加考勤记录
 {
     auto it = std::find_if(members.begin(), members.end(), [&](const Member &m)
                            { return m.getId() == id; });
@@ -73,7 +73,7 @@ void Team::addAttendance(const std::string &id, const std::string &time, double 
     attendances[index].addRecord(time, duration);
 }
 
-void Team::displayAttendance(const std::string &id) const
+void Team::displayAttendance(const std::string &id) const // 删除考勤记录
 {
     auto it = std::find_if(members.begin(), members.end(), [&](const Member &m)
                            { return m.getId() == id; });
@@ -83,15 +83,4 @@ void Team::displayAttendance(const std::string &id) const
     }
     size_t index = it - members.begin();
     attendances[index].displayAttendance();
-}
-
-void Team::sortAttendanceByPunchCount()
-{
-    std::sort(attendances.begin(), attendances.end());
-}
-
-void Team::sortAttendanceByWorkTime()
-{
-    std::sort(attendances.begin(), attendances.end(), [](const Attendance &a, const Attendance &b)
-              { return a.getTotalWorkTime() < b.getTotalWorkTime(); });
 }
