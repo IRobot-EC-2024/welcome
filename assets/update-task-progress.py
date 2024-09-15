@@ -8,6 +8,9 @@ import os
 font_path = '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc'
 font_prop = fm.FontProperties(fname=font_path)
 
+# font_path = '/System/Library/fonts/PingFang.ttc'
+# font_prop = fm.FontProperties(fname=font_path)
+
 # 数据
 directory = 'submissions/'
 all_items = os.listdir(directory)
@@ -25,7 +28,7 @@ for member, count in task_counts.items():
 # 设置图形大小
 plt.figure(figsize=(10, 6))
 
-plt.barh(members, task_counts.values(), color='gold', label=f'已提交人数{len(members)}' )
+plt.barh(members, task_counts.values(), color='gold', label=f'已提交人数{len(members)}\n任务截止日期:\ntask0:9.16\ntask1:9.23\ntask2:10.14\ntask4:9.30\ntask5:10.21\ntask6:10.26\ntask7:10.30\ntask8:11.10' )
 
 # 显示图例
 plt.legend(loc="upper right", prop = font_prop)
