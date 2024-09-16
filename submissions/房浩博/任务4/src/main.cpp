@@ -1,7 +1,7 @@
 #include <iostream>
 #include "team.h"
 using namespace std;
-
+#include <limits>
 void showMainMenu()
 {
     cout << "================= 战队人员管理系统 =================" << endl;
@@ -33,6 +33,13 @@ int main()
 
     do
     {
+        if (cin.fail())
+        {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "无效输入，请输入数字！" << endl;
+            continue;
+        }
         showMainMenu();
         cout << "请选择操作: ";
         cin >> choice;
@@ -97,6 +104,13 @@ int main()
                 showSortMenu();
                 cout << "请选择操作: ";
                 cin >> sortChoice;
+                if (cin.fail())
+                {
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    cout << "无效输入，请输入数字！" << endl;
+                    continue;
+                }
 
                 switch (sortChoice)
                 {
