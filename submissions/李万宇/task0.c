@@ -2,11 +2,9 @@
 
 void bubbleSort(int arr[], int n) {
     int i, j, temp;
-    // å†’æ³¡æ’åºç®—æ³•
     for (i = 0; i < n-1; i++) {
         for (j = 0; j < n-i-1; j++) {
             if (arr[j] > arr[j+1]) {
-                // äº¤æ¢ç›¸é‚»å…ƒç´ 
                 temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
@@ -15,28 +13,31 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-int main() {
-    int n, i;
-    // è¾“å…¥æ•°ç»„å¤§å°
-    printf("è¯·è¾“å…¥æ•°å­—çš„ä¸ªæ•°: ");
-    scanf("%d", &n);
-
-    int arr[n];
-    // è¾“å…¥æ•°ç»„å…ƒç´ 
-    printf("è¯·è¾“å…¥ %d ä¸ªæ•´æ•°:\n", n);
-    for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    // è°ƒç”¨å†’æ³¡æ’åºå‡½æ•°
-    bubbleSort(arr, n);
-
-    // è¾“å‡ºæ’åºåçš„æ•°ç»„
-    printf("æ’åºåçš„æ•°ç»„æ˜¯: ");
-    for (i = 0; i < n; i++) {
+void printArray(int arr[], int size) {
+    int i;
+    for (i = 0; i < size; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
+}
 
+int main() {
+    int n, i;
+    printf("ÇëÊäÈëÊı×éµÄ´óĞ¡: ");
+    scanf("%d", &n);
+    int arr[n];
+    printf("ÇëÊäÈëÊı×éÖĞµÄÔªËØ: \n");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    
+    printf("ÅÅĞòÇ°µÄÊı×é: \n");
+    printArray(arr, n);
+    
+    bubbleSort(arr, n);
+    
+    printf("ÅÅĞòºóµÄÊı×é: \n");
+    printArray(arr, n);
+    
     return 0;
 }
