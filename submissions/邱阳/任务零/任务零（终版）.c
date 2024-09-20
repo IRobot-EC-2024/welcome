@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,7 +12,6 @@ int main()
 	int a[1000], m;
 	m = get_ints(b, a);
 	print(a, m);
-	getchar();//防止运行时快速结束
 	return 0;
 }
 int get_ints(char s[], int a[])
