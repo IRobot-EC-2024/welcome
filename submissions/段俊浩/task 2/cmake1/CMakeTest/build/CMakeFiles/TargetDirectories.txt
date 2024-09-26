@@ -1,0 +1,4 @@
+C:/Users/32350/Desktop/cmake1/CMakeTest/build/CMakeFiles/mylib.dir
+C:/Users/32350/Desktop/cmake1/CMakeTest/build/CMakeFiles/MyExecutable.dir
+C:/Users/32350/Desktop/cmake1/CMakeTest/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/32350/Desktop/cmake1/CMakeTest/build/CMakeFiles/ZERO_CHECK.dir
