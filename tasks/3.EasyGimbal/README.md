@@ -11,7 +11,7 @@
 
 ## 实物图与任务要求
 
-[实物图](.\assets\Picture.jpg)
+![实物图](.\assets\Picture.jpg)
 
 [演示视频](.\assets\Video.mp4)
 
