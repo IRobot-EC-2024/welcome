@@ -1,0 +1,10 @@
+^C:\USERS\32350\DESKTOP\CMAKE1\CMAKETEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/32350/Desktop/cmake1/CMakeTest -BC:/Users/32350/Desktop/cmake1/CMakeTest --check-stamp-file C:/Users/32350/Desktop/cmake1/CMakeTest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
