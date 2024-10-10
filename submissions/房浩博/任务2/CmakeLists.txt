@@ -1,0 +1,7 @@
+project(TeamManagement)
+
+include_directories(include)
+aux_source_directory(src SRC_SUB)
+add_executable(TeamManagement
+${SRC_SUB}
+)
