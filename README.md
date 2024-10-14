@@ -71,6 +71,8 @@
 
 - ### [中期考核：二轴自稳云台（重要，看这里！）](tasks/midterm.gimbal/README.md)
 
+以下任务需要依赖一辆舵轮步兵机器人进行，请积极来实验室完成任务！如果对任务内容有任何问题，请及时向老队员提问！
+
 - [任务四：底盘控制 - 驱动 CAN 总线电机/PID 控制器](tasks/4.chassis/README.md)
 
 - [任务五：云台控制 - 姿态解算/PID 控制器](tasks/5.gimbal/README.md)
