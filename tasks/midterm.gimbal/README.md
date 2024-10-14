@@ -42,6 +42,6 @@
 
 ![](./assets/Picture.jpg)
 
-[](.\assets\Video.mp4)(.\assets\Video.mp4)
+https://github.com/IRobot-EC-2024/welcome/raw/c12a54c44054bf7724bacd7e1acedc7a940f545c/tasks/midterm.gimbal/assets/Video.mp4
 
 ## 附：[MPU6050 驱动](./assets/mpu6050)
