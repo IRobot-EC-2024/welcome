@@ -40,7 +40,7 @@
 
 ## 参考实物
 
-![](./assets/Picture.jpg)
+![](./assets/p1.jpg)
 
 https://github.com/user-attachments/assets/ca04e48d-b855-4c51-be57-7bcc0f598317
 
