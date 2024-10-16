@@ -19,7 +19,10 @@ task_counts = {}
 for member in members:
     folder_path = os.path.join(directory, member)
     items = os.listdir(folder_path)
-    task_counts[member] = len(items)
+    if len(items) < 2:
+        continue
+    else:
+        task_counts[member] = len(items)
 
 for member, count in task_counts.items():
     print(f"{member}: {count}")
@@ -28,7 +31,7 @@ for member, count in task_counts.items():
 # 设置图形大小
 plt.figure(figsize=(10, 6))
 
-plt.barh(members, task_counts.values(), color='gold', label=f'已提交人数{len(members)}\n任务截止日期:\ntask0:9.16\ntask1:9.23\ntask2:10.14\ntask4:9.30\ntask5:10.21\ntask6:10.26\ntask7:10.30\ntask8:11.10' )
+plt.barh(members, task_counts.values(), color='gold', label=f'已提交人数{len(members)}\n任务截止日期:\ntask0:9.16\ntask1:9.23\ntask2:期中前\ntask3:11.20\ntask4:11.20\ntask5:11.20\ntask6:11.20' )
 
 # 显示图例
 plt.legend(loc="upper right", prop = font_prop)
