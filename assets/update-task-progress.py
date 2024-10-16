@@ -34,7 +34,7 @@ for member, count in task_counts.items():
 # 设置图形大小
 plt.figure(figsize=(10, 6))
 
-plt.barh(qualified, task_counts.values(), color='gold', label=f'剩余考核进行中人数/总人数 {len(qualified)}/{len(member)}\n任务截止日期:\ntask0:9.16\ntask1:9.23\ntask2:期中前\ntask3:11.20\ntask4:11.20\ntask5:11.20\ntask6:11.20' )
+plt.barh(qualified, task_counts.values(), color='gold', label=f'剩余考核中人数/总人数 {len(qualified)}/{len(member)}\n任务截止日期:\ntask0:9.16\ntask1:9.23\ntask2:期中前\ntask3:11.20\ntask4:11.20\ntask5:11.20\ntask6:11.20' )
 
 # 显示图例
 plt.legend(loc="upper right", prop = font_prop)
