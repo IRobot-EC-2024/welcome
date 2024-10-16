@@ -65,11 +65,11 @@
 
 - [任务一：简单 PCB 绘制（10 月 1 日前完成）](tasks/1.pcb/README.md)
 
-- [任务二：C++/CMake（期中考试前完成）](tasks/2.cpp-buildsystem/README.md)
+- [任务二：焊接](tasks/2.solder/README.md)
 
-- [任务三：焊接](tasks/3.solder/README.md)
+- ### [中期考核：二轴自稳云台（期中考试前完成）](tasks/midterm.gimbal/README.md)
 
-- ### [中期考核：二轴自稳云台（重要，看这里！）](tasks/midterm.gimbal/README.md)
+- [任务三：C++/CMake](tasks/3.cpp-buildsystem/README.md)
 
 以下任务需要依赖一辆舵轮步兵机器人进行，请积极来实验室完成任务！如果对任务内容有任何问题，请及时向老队员提问！
 
