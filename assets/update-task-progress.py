@@ -17,6 +17,7 @@ directory = 'submissions/'
 all_items = os.listdir(directory)
 members = [item for item in all_items if os.path.isdir(os.path.join(directory, item)) and item != 'README.md']
 task_counts = {}
+qualified = list()
 for member in members:
     folder_path = os.path.join(directory, member)
     items = os.listdir(folder_path)
@@ -24,6 +25,7 @@ for member in members:
         continue
     else:
         task_counts[member] = len(items)
+        qualified.append(member)
 
 for member, count in task_counts.items():
     print(f"{member}: {count}")
@@ -32,7 +34,7 @@ for member, count in task_counts.items():
 # 设置图形大小
 plt.figure(figsize=(10, 6))
 
-plt.barh(members, task_counts.values(), color='gold', label=f'已提交人数{len(members)}\n任务截止日期:\ntask0:9.16\ntask1:9.23\ntask2:期中前\ntask3:11.20\ntask4:11.20\ntask5:11.20\ntask6:11.20' )
+plt.barh(qualified, task_counts.values(), color='gold', label=f'已提交人数{len(members)}\n任务截止日期:\ntask0:9.16\ntask1:9.23\ntask2:期中前\ntask3:11.20\ntask4:11.20\ntask5:11.20\ntask6:11.20' )
 
 # 显示图例
 plt.legend(loc="upper right", prop = font_prop)
