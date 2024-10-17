@@ -1,0 +1,3 @@
+/home/yourdaddy/Desktop/PMS/build/CMakeFiles/hello.dir
+/home/yourdaddy/Desktop/PMS/build/CMakeFiles/edit_cache.dir
+/home/yourdaddy/Desktop/PMS/build/CMakeFiles/rebuild_cache.dir
