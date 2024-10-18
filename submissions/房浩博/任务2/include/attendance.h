@@ -12,7 +12,6 @@ public:
     double getTotalWorkTime() const;
     int getPunchCount() const;
 
-    bool operator<(const Attendance &other) const;
 
 private:
     std::vector<std::string> punchTimes;
@@ -21,4 +20,4 @@ private:
     bool isValidDateTime(const std::string &datetime) const;
 };
 
-#endif
+#endif // ATTENDANCE_H

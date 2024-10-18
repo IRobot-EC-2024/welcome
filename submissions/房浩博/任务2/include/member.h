@@ -24,6 +24,8 @@ private:
     std::string id;
     std::string name;
     std::string joinDate;
+
+    // 验证日期
     bool isValidJoinDate(const std::string &joinDate) const;
 };
 

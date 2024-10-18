@@ -41,15 +41,6 @@ void Attendance::displayAttendance() const
     }
 }
 
-bool Attendance::operator<(const Attendance &other) const
-{
-    if (getPunchCount() != other.getPunchCount())
-    {
-        return getPunchCount() < other.getPunchCount();
-    }
-    return getTotalWorkTime() < other.getTotalWorkTime();
-}
-
 bool Attendance::isValidDateTime(const std::string &datetime) const
 {
 

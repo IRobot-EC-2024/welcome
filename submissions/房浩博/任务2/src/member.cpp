@@ -7,7 +7,7 @@ Member::Member(const std::string &id, const std::string &name, const std::string
 {
     if (!isValidJoinDate(joinDate))
     {
-        throw std::invalid_argument("无效的入队年月格式: " + joinDate);
+        throw std::invalid_argument("无效的入队年月格式: " + std::string(joinDate));
     }
     this->joinDate = joinDate;
 }

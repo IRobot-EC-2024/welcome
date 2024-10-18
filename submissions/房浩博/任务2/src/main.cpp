@@ -1,7 +1,9 @@
 #include <iostream>
+#include <string>
 #include "team.h"
+#include <regex>
 using namespace std;
-#include <limits>
+// 一级菜单
 void showMainMenu()
 {
     cout << "================= 战队人员管理系统 =================" << endl;
@@ -14,7 +16,7 @@ void showMainMenu()
     cout << "7. 退出" << endl;
     cout << "=====================================================" << endl;
 }
-
+// 二级菜单
 void showSortMenu()
 {
     cout << "============== 队员信息排序方式 ==============" << endl;
@@ -33,13 +35,6 @@ int main()
 
     do
     {
-        if (cin.fail())
-        {
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            cout << "无效输入，请输入数字！" << endl;
-            continue;
-        }
         showMainMenu();
         cout << "请选择操作: ";
         cin >> choice;
@@ -82,7 +77,7 @@ int main()
             cout << "请输入要修改的队员学号: ";
             cin >> id;
             cout << "请输入新姓名: ";
-            cin >> name;
+            cin >> name; // 建议用字母，从gb2312改成utf8之后，中文读取不了，也可能是我自己的电脑环境问题
             cout << "请输入新入队年月(格式: YYYY-MM): ";
             cin >> joinDate;
             try
@@ -104,13 +99,6 @@ int main()
                 showSortMenu();
                 cout << "请选择操作: ";
                 cin >> sortChoice;
-                if (cin.fail())
-                {
-                    cin.clear();
-                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                    cout << "无效输入，请输入数字！" << endl;
-                    continue;
-                }
 
                 switch (sortChoice)
                 {
@@ -160,9 +148,15 @@ int main()
         case 6:
             cout << "请输入要查询的队员学号: ";
             cin >> id;
-            team.displayAttendance(id);
+            try
+            {
+                team.displayAttendance(id);
+            }
+            catch (const exception &e)
+            {
+                cerr << "错误: " << e.what() << endl;
+            }
             break;
-
         case 7:
             cout << "退出系统" << endl;
             break;
