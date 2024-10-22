@@ -54,4 +54,6 @@
 
 - [【C++】6 小时学完 C++|C++面向对象编程|期末突击【慕课】](https://www.bilibili.com/video/BV1ZT4y1C7WR)
 
+- [8分钟搞懂面向对象编程 | 面向过程vs面向对象 | OOP | 封装 继承 多态](https://www.bilibili.com/video/BV1wZ4y1B7A7)
+
 - [从零开始详细介绍 CMake](https://www.bilibili.com/video/BV1vR4y1u77h)
