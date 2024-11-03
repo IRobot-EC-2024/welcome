@@ -48,8 +48,6 @@
 
 - [M3508 减速电机套装](https://www.robomaster.com/zh-CN/products/components/general/M3508)
 
-- [DM-J4310-2EC V1.1减速电机说明书V1.0](https://gitee.com/kit-miao/damiao/raw/master/%E5%85%B3%E8%8A%82%E7%94%B5%E6%9C%BA/DM-J4310-2EC/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J4310-2EC%20V1.1%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6V1.0.pdf)
-
 ## 附录
 
 ### PID 控制器实现
