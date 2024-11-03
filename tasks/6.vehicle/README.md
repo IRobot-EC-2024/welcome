@@ -11,7 +11,3 @@
 - 移植上两节的代码，适配到实际的车上
 
 - 设计 CAN 总线报文，让云台上和底盘上的两个 STM32 互相通信。（想想为什么要做这一步）
-
-## 🔗 参考资料
-
-- [RoboMaster/Development-Board-C-Examples](https://github.com/RoboMaster/Development-Board-C-Examples)
