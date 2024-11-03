@@ -14,17 +14,31 @@
 
 4. 学习使用 UART：接收 DT7 遥控器和 DR16 接收机发来的控制量。
 
-5. 完成底盘控制：进行四舵轮底盘正运动学解算，结合解算结果和 pid 控制器，让底盘根据遥控器的输入进行运动。
+    
+
+6. 完成底盘控制：进行四舵轮底盘正运动学解算，结合解算结果和 pid 控制器，让底盘根据遥控器的输入进行运动。
 
 ![](./assets/image.png)
 
 ## 🔗 参考资料
 
+### 教程
+
+- [通俗易懂的 PID 控制算法讲解](https://www.bilibili.com/video/BV1et4y1i7Gm)
+
+- [【keysking的STM32教程】第8集 STM32的串口通信](https://www.bilibili.com/video/BV1Na4y1T7VQ/?share_source=copy_web&vd_source=705edeb1573287133e920650d6885caf)
+
+- [CAN总线入门教程-全面细致 面包板教学 多机通信](https://www.bilibili.com/video/BV1vu4m1F7Gt/?share_source=copy_web&vd_source=705edeb1573287133e920650d6885caf)
+
+- [单片机也能跑多线程？5分钟带你入门FreeRTOS](https://www.bilibili.com/video/BV1mF4m1A7sp/?share_source=copy_web&vd_source=705edeb1573287133e920650d6885caf)
+
+- [【STM32】使用CubeMX快速创建FreeRTOS的基础工程](https://blog.csdn.net/youuuuvvu/article/details/132559730)
+
+### 相关文档资料
+
 - [RoboMaster 开发板 C 型](https://www.robomaster.com/zh-CN/products/components/general/development-board-type-c#downloads)
 
 - [RoboMaster 开发板 C 型嵌入式软件教程文档](https://github.com/RoboMaster/Development-Board-C-Examples/blob/master/RoboMaster%E5%BC%80%E5%8F%91%E6%9D%BFC%E5%9E%8B%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B%E6%96%87%E6%A1%A3.pdf)
-
-- [通俗易懂的 PID 控制算法讲解](https://www.bilibili.com/video/BV1et4y1i7Gm)
 
 - [RoboMaster/Development-Board-C-Examples](https://github.com/RoboMaster/Development-Board-C-Examples)
 
