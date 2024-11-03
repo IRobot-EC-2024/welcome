@@ -20,7 +20,7 @@
 
 ## 🔗 参考资料
 
-- [RoboMaster 开发板 C 型用户手册](https://rm-static.djicdn.com/tem/35228/RoboMaster%20%20%E5%BC%80%E5%8F%91%E6%9D%BF%20C%20%E5%9E%8B%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf)
+- [RoboMaster 开发板 C 型](https://www.robomaster.com/zh-CN/products/components/general/development-board-type-c#downloads)
 
 - [RoboMaster 开发板 C 型嵌入式软件教程文档](https://github.com/RoboMaster/Development-Board-C-Examples/blob/master/RoboMaster%E5%BC%80%E5%8F%91%E6%9D%BFC%E5%9E%8B%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B%E6%96%87%E6%A1%A3.pdf)
 
@@ -28,7 +28,13 @@
 
 - [RoboMaster/Development-Board-C-Examples](https://github.com/RoboMaster/Development-Board-C-Examples)
 
-- [DT7&DR16 2.4GHz 遥控接收系统用户手册](https://rm-static.djicdn.com/tem/4.RoboMaster%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%93%E7%94%A8%E9%81%A5%E6%8E%A7%E5%99%A8%EF%BC%88%E6%8E%A5%E6%94%B6%E6%9C%BA%EF%BC%89%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf)
+- [DT7&DR16 2.4GHz 遥控接收系统](https://www.robomaster.com/zh-CN/products/components/detail/122)
+
+- [GM6020 云台电机](https://www.robomaster.com/zh-CN/products/components/general/GM6020)
+
+- [M3508 减速电机套装](https://www.robomaster.com/zh-CN/products/components/general/M3508)
+
+- [DM-J4310-2EC V1.1减速电机说明书V1.0](https://gitee.com/kit-miao/damiao/raw/master/%E5%85%B3%E8%8A%82%E7%94%B5%E6%9C%BA/DM-J4310-2EC/%E8%AF%B4%E6%98%8E%E4%B9%A6/DM-J4310-2EC%20V1.1%E5%87%8F%E9%80%9F%E7%94%B5%E6%9C%BA%E8%AF%B4%E6%98%8E%E4%B9%A6V1.0.pdf)
 
 ## 附录
 
