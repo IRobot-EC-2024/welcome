@@ -15,6 +15,14 @@
 
 > 2024 秋季集中招新已结束，若有意向进组请致信 ->> [**inbox@lunariio.work**](mailto:inbox@lunariio.work)
 
+## 开源声明
+
+最近注意到，有其他队伍的同学借助这份招新文档，借鉴了我们把 git/Github 融入到过程中的培训方式。即使一开始的本意就是把这份资料作为公开资源，但因为没有直接说明开源以及缺少相应的开源协议，在使用时难免放不下心。为了打消大家的顾虑，还是特别在这里添加开源声明；
+
+除提交的作业内容(`submissions/`文件夹里的所有内容)外，本项目采用 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.zh) 进行许可。
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/deed.zh)
+
 ## 信息发布栏
 
 ### 线下课回放+教程
