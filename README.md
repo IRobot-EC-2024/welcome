@@ -29,6 +29,8 @@
 
 - [1.STM32 开发环境配置教程](https://www.bilibili.com/video/BV1YosheaEbs)
 
+- [2.DC-DC模块 PCB设计讲解](https://www.bilibili.com/video/BV14oxhexEd2)
+
 **实验室地址：** 南校区工程训练中心楼（竹园餐厅南边） 二楼
 
 ## 关于我们
