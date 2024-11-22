@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build",
+        "type": "shell",
+        "command": "cmake --preset=Debug ; cmake --build build/Debug --target all",
+        "args": [],
+        "problemMatcher": "$gcc",
+        "group": "build",
+        "detail": "编译源码"
+      },
+      {
+        "label": "Load",
+        "type": "shell",
+        "command": "openocd",
+        "args": [
+          "-f",
+          "./openocd/openocd.cfg",
+          "-c",
+          "program ./build/Debug/stm32f103c8t6_template.elf verify reset exit"
+        ],
+        "dependsOn": [
+          "Build"
+        ],
+        "detail": "下载固件"
+      }
+    ]
+  }

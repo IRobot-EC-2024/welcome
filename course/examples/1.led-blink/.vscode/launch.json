@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "cortex-debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/Debug/stm32f103c8t6_template.elf",
+            "request": "launch",    //注意必须使用launch，不能使用attach
+            "preLaunchTask": "Load",   //防止忘了下载程序
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "configFiles": ["./openocd/openocd.cfg"],
+
+            "device": "STM32F103C8T6",
+            "interface": "swd",
+            "svdFile": "./openocd/STM32F103.svd",
+            "runToEntryPoint": "main",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            }
+        }
+    ]
+}
